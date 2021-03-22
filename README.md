@@ -98,7 +98,7 @@ You can use the API of our Back-end students by contacting them or using the fre
 1. Get a free API Key at [themoviedb.org](themoviedb.org)
 2. Clone the repo
    ```sh
-   git clone https://gitlab.com/binar-10-mini-project/team-e/team-e-frontend/mov-e.git
+   git clone https://github.com/pfutama/move-movie-app.git
    ```
 3. Install NPM/Yarn packages (choose one!)
    ```sh
