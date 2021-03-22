@@ -1,0 +1,145 @@
+.footer {
+  background: #000;
+  width: 100%;
+  padding: 20px 40px;
+  padding-bottom: 1px;
+  border-radius: 0px 0px 5px 5px;
+}
+
+
+/* @media (max-width: 880px) {
+  .footer {
+      font-size: 14px;
+      font-family: "Raleway", sans-serif;
+  }
+  .footer .left-footer,
+  .footer .center-footer,
+  .footer .right-footer {
+      display: block;
+      width: 100%;
+      margin-bottom: 40px;
+      text-align: center;
+  }
+} */
+
+.upper-footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.upper-footer div {
+  background-color: black;
+  width: 100%;
+  margin: 0px;
+  text-align: left;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.left-upper-footer {
+  text-align: left;
+  color: white;
+}
+
+.left-upper-footer img {
+  display: inline-block;
+  margin-top: -30px;
+  width: 90px;
+  height: 90px;
+}
+
+.left-upper-footer span {
+  color: #4d6de3;
+  margin-bottom: 50px;
+  font-size: 40px;
+  margin-left: -20px;
+}
+
+.left-upper-footer .paragraph {
+  line-height: normal;
+  padding-left: 10px;
+  margin-top: -20px;
+  height: 80px;
+  text-align: left;
+  font-size: 15px;
+}
+
+.center-upper-footer {
+  padding-top: 15px;
+  padding-right: 60px;
+  text-align: right;
+  padding-right: 30px;
+}
+
+.center-upper-footer p {
+  padding-top: 5px;
+  line-height: normal;
+  letter-spacing: 2px;
+  font-size: 17px;
+  color: white;
+  text-align: right;
+  padding-right: 0px;
+}
+
+.right-upper-footer {
+  letter-spacing: 2px;
+  color: white;
+  width: 30%;
+  height: 200px;
+  padding-top: 10px;
+  padding-left: 50px;
+}
+
+.right-upper-footer .app-store {
+  width: 100px;
+  height: 90px;
+  margin-top: -30px;
+  padding-bottom: 0px;
+}
+
+.right-upper-footer .google {
+  width: 100px;
+  height: 90px;
+  margin-top: -35px;
+}
+
+.underline {
+  border-top: 1px solid #fff;
+  padding: 5px auto;
+}
+
+.upper-footer p {
+  text-align: center;
+  color: #fff;
+}
+
+.center-upper-footer p {
+  text-align: right;
+  color: #fff;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.dibawah {
+  color: white;
+  text-align: center;
+  line-height: 15px;
+  font-size: 20px;
+}
+
+.social-media {
+  margin-top: -100px;
+  padding-bottom: 0px;
+}
+
+.social-media h5 {
+  margin-top: -25px;
+  margin-bottom: 15px;
+}
+
+.social-media img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  margin-top: -70px;
+}

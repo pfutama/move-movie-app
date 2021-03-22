@@ -1,0 +1,55 @@
+.carosel-img {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  
+}
+.slider {
+  padding-top: 0px;
+  position: relative;
+  height: 310px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.image {
+  width: 100%;
+  height: 300px;
+}
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  font-size: 3rem;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+  color: #fff;
+}
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  font-size: 3rem;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+  color: #fff;
+}
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active {
+  width: 92%;
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+  padding-top: 24px;
+  padding-left: 4px;
+  padding-right: 4px;
+  
+}

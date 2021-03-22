@@ -1,0 +1,58 @@
+body{
+  background-color:rgb(204, 204, 221);
+}
+.container {
+  width: 100%;
+  height: 110vh;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.movies-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 16px;
+}
+
+.movie-item:hover {
+  cursor: pointer;
+  box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+.movie-item img {
+  width: 100%;
+  border-radius: 10px;
+}
+.short-synopsis {
+  width: 60%;
+}
+
+.pagination {
+  width: 100%;
+  justify-items: center;
+
+  margin-top: 50px;
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: #4D6DE3;
+  color: white;
+  border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+  border-radius: 5px;
+}
+

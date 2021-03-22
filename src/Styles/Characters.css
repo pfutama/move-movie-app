@@ -1,0 +1,17 @@
+.actor {
+    min-height: 350px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 16px;
+}
+
+.actor-item {
+    cursor: pointer;
+    text-align: center;
+}
+
+.actor img {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+}
